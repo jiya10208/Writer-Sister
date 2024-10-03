@@ -1,0 +1,32 @@
+.poemItem_poem {
+  padding: 1rem 1rem;
+  display: flex;
+  position: relative;
+  flex-flow: column;
+  align-items: center;
+
+  overflow-x: hidden; /* Hide horizontal overflow */
+}
+.poemItem_poem h1 {
+  font-weight: 500;
+  font-family: "Roboto" !important;
+  font-size: 3.2rem;
+  margin-bottom: 0;
+  border-bottom: 3px double rgba(208, 198, 245, 0.997);
+}
+
+.poemItem_content {
+  margin-top: 1rem;
+}
+.poemItem_content p {
+  font-weight: 500;
+  color: rgb(207, 207, 206);
+}
+
+.poemItem_bg {
+  position: absolute;
+  opacity: 0.1;
+  top: 15rem;
+  left: 10rem;
+  max-width: 100%;
+}
